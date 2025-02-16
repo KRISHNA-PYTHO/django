@@ -1,5 +1,5 @@
 from django import forms
 
-class MarvelForm(forms.Form):
+class AdmissionForm(forms.Form):
     name = forms.CharField()
     last_name =forms.CharField()

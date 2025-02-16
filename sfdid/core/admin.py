@@ -1,7 +1,7 @@
 from django.contrib import admin
-from . models import MarvelModel
+from . models import CollegeAdmission
 # Register your models here.
 
-@admin.register(MarvelModel)
-class MarvelAdmin(admin.ModelAdmin):
+@admin.register(CollegeAdmission)
+class CollegeAdmission(admin.ModelAdmin):
     list_display =['id','name','last_name']
