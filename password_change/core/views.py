@@ -42,7 +42,7 @@ def profile(request):
     if request.user.is_authenticated:
         return render(request,'core/profile.html')
     else:
-        return redirect('/login/')
+        return redirect('/register/')
 
 def user_logout(request):
     logout(request)
