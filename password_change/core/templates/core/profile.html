@@ -9,6 +9,8 @@
     <h1>This is a profile page of {{request.user}}</h1>
     <br><br>
     <a href="{% url "logout" %}"><button type='button'>Log Out</button></a>
+    <a href="{% url "pcf" %}"><button type='button'>Change Password</button></a>
+    <a href="{% url "spf" %}"><button type='button'>Set Password</button></a>
 
 </body>
 </html>
